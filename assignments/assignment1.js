@@ -1,7 +1,7 @@
 let totalSeconds = 10
 
 function counter() {
-    console.log('Your OTP will expire in ' + totalSeconds + ' seconds');
+    console.log(`Your OTP will expire in ${totalSeconds} seconds`);
     totalSeconds--;
 }
 

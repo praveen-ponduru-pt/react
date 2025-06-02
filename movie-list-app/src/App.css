@@ -1,0 +1,15 @@
+ body {
+   margin: auto;
+   background: rgb(233, 255, 251);
+   display: flex;
+   flex-direction: column;
+ }
+
+ body div {
+   margin: 50px;
+ }
+
+ th,
+ td {
+   border: 1px solid black;
+ }

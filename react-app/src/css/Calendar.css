@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    /* Optional: Add a background color */
+    font-family: Arial, sans-serif;
+    /* Optional: Set a font */
+}
+
+.attendees {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+}
+
+.attendees input {
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+}
+
+.attendees button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 25px;
+    padding: 0 10px;
+}
